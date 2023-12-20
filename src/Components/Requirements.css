@@ -1,0 +1,433 @@
+.Requirement {
+    width: 100%;
+    background: #FFF;
+}
+
+.Dashboard {
+    color: #888;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Require {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Post_TJ {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.BreadCrumbs {
+    margin: auto;
+    width: 95%;
+    padding: 1rem;
+}
+
+.Post_Buttons {
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+.Post_Buttons button {
+    border-radius: 2.5rem;
+    border: 1px solid #b6adad;
+    background: rgba(220, 220, 220, 0.10);
+    /* for text */
+    color: #888;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.Post_Buttons button:hover,
+.Post_Buttons button:active,
+.Post_Buttons button:focus {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 2.5rem;
+    border: 1px solid rgba(38, 118, 194, 0.20);
+    background: rgba(38, 118, 194, 0.10);
+}
+
+.Post_Training_content {
+    width: 95%;
+    margin: auto;
+}
+
+.Company,
+.Technology,
+.Type_Of_Training,
+.Mode_Of_Training,
+.Select_Experience,
+.Duration_Of_Time,
+.Budgets,
+.TOC,
+.Training_Dates,
+.Content_Title {
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.150rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+
+}
+
+.Company input {
+    border-radius: 0.125rem;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    display: flex;
+    padding: 0.5625rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 23.8rem;
+    height: 1.31rem;
+    color: #888;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.Content_Title input {
+    border-radius: 0.125rem;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    display: flex;
+    padding: 0 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 41.3rem;
+    height: 2.4rem;
+    color: #888;
+    font-family: Poppins;
+    font-size: 0.975rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.Content_Title span {
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 2rem;
+}
+
+.Multi_S_I {
+    width: 41.3rem;
+    height: auto;
+}
+
+.RadioTOT {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 3rem;
+    color: #535353;
+    font-family: Poppins;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Type_Of_Training input[type="radio"],
+.Mode_Of_Training input[type="radio"],
+.Duration_Of_Time input[type="radio"],
+.TOC input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 0.20rem;
+    cursor: pointer;
+}
+
+.ParticipantCount h5,
+.SelectLocation h5,
+.Select_Experience h5,
+.DurationCount h5 {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+}
+
+.RadioTOT_Count,
+.Radio_Duration_Count {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0%;
+    border: #2676C2 1px solid;
+    width: fit-content;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+
+.RadioTOT_Count span,
+.Radio_Duration_Count span {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.RadioTOT_Count button,
+.Radio_Duration_Count button {
+    border: none;
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.Radio_MOT,
+.Radio_Duration,
+.TOC_Radio {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 3rem;
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.SelectLocation select,
+.Budgets select {
+    width: fit-content;
+    height: 2rem;
+    border-radius: 0.125rem;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 0.855rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    outline: none;
+}
+
+.Budget_MM input {
+    border: 2px #2676C2 solid;
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    outline: none;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.3rem;
+    padding: 0 10px;
+}
+
+.TOC_Radio {
+    margin-bottom: 1rem;
+}
+
+.Budget_MM {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.UPLOADFILE {
+    width: 16rem;
+    height: 3rem;
+    border: 2px solid #535353;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.UPLOADFILE input {
+    border: 2px solid #535353;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    width: 16rem;
+    height: 3rem;
+    bottom: 3rem;
+    position: relative;
+}
+
+.For_Align_Upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+
+.For_Align_Upload h4 {
+    white-space: nowrap;
+    font-size: large;
+}
+
+.BreadCrumbs {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0%;
+    padding-left: 2rem;
+    padding-top: 1.1rem;
+    background: #FFF;
+    z-index: 101;
+}
+
+.Post_Buttons {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    padding: 2rem;
+    padding-bottom: 0.7rem;
+    background: #FFF;
+    z-index: 100;
+}
+
+.Content_Wrapper {
+    margin-top: 120px;
+    /* Adjust this margin to provide enough space for fixed elements */
+    z-index: 50;
+    /* Ensure content appears above fixed elements */
+}
+
+.Post_Training_Content,
+.Post_Job_Content {
+    width: 50%;
+    padding: 0 25px;
+}
+
+.Post_Job_Content {
+    padding-left: 2rem;
+}
+
+.Post_Button {
+    display: flex;
+    gap: 2rem;
+}
+
+.Reset_Btn,
+.Submit_Btn {
+    width: 15rem;
+    height: 2.5rem;
+    /* border: 1px solid #535353; */
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height:; */
+    cursor: pointer;
+    border-radius: 0.1rem;
+    border: none;
+}
+
+.Reset_Btn {
+    color: #2676C2;
+    border: 1px solid #2676C2;
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Submit_Btn {
+    color: #FFF;
+    background: #2676C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reset_Btn:hover {
+    background: #2676C2;
+    color: #FFF;
+}
+/* General styles for all screen sizes */
+.Requirement {
+    width: 100%;
+    background: #FFF;
+}
+
+/* Styles for screens larger than 768px */
+@media only screen and (min-width: 768px) {
+    .Post_Buttons {
+        padding: 2rem;
+        padding-bottom: 0.7rem;
+    }
+
+    .Content_Wrapper {
+        margin-top: 120px;
+    }
+
+    .Post_Training_Content,
+    .Post_Job_Content {
+        width: 50%;
+        padding: 0 25px;
+    }
+}
+
+/* Styles for screens larger than 1024px */
+@media only screen and (min-width: 1024px) {
+    .BreadCrumbs {
+        padding-left: 2rem;
+        padding-top: 1.1rem;
+    }
+
+    .Post_Buttons {
+        top: 40px;
+    }
+}
